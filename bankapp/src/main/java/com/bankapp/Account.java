@@ -2,7 +2,7 @@ package bankapp.src.main.java.com.bankapp;
 
 public class Account {
     private int accountNumber;
-    private double balance;
+    double balance;
 
     public Account(int accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;

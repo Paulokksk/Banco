@@ -19,4 +19,12 @@ public class Bank {
     public List<Account> getAllAccounts() {
         return accounts;
     }
+
+    public void deposit(Account account, double amount) {
+        if (amount > 0) {
+            account.balance += amount;
+        } else {
+            System.out.println("O valor do depósito deve ser maior que zero.");
+        }
+    }
 }
